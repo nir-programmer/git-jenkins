@@ -3,6 +3,16 @@ package org.nir.model;
 public class User
 {
 	private String name ;
+	public String getAddress()
+	{
+		return address;
+	}
+
+	public void setAddress(String address)
+	{
+		this.address = address;
+	}
+
 	private int age ; 
 	private String address; 
 	
