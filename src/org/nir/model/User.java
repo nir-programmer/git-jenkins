@@ -3,6 +3,7 @@ package org.nir.model;
 public class User
 {
 	private String name ;
+	private String password; 
 	public String getAddress()
 	{
 		return address;
